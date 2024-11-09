@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+.header{
+    background-color: rgb(15, 10, 10);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    .header-nav{
+        display: flex;
+        gap: 100px;
+        a{
+            color:  rgb(240, 129, 147);
+            font-weight: 700;
+            text-decoration: none;
+            &:hover{
+                color: rgb(184, 113, 125);
+            }
+        }
+    }
+}
