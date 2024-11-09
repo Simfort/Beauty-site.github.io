@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap");
+.beautyITW {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  perspective: 1000px;
+}
+.beautyITW .img-wrapper {
+  transform-style: preserve-3d;
+  transform: rotateY(20deg);
+  background-image: url("../../../assets/beauty_itw.png");
+  height: 500px;
+  opacity: 0.5;
+  width: 40%;
+  margin-top: 100px;
+  background-position: center;
+  background-size: cover;
+  animation: anim2 1s ease-in-out;
+  transition: 1s;
+}
+.beautyITW .img-wrapper:hover {
+  transform: rotateY(180deg);
+}
+.beautyITW .beautyITW-text {
+  margin-top: 200px;
+  display: flex;
+  width: 500%;
+  justify-content: center;
+  transform: rotateZ(20deg);
+  background-color: pink;
+  color: white;
+  animation: anim 1s ease-in-out;
+}
+.beautyITW .beautyITW-text p {
+  width: 15%;
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 25px;
+}
+.beautyITW .wrapper-title {
+  width: 100%;
+  background-color: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 185, 185);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 10px;
+  margin-bottom: 50px;
+  font-style: italic;
+  text-shadow: 0 0 10px gray;
+  animation: anim 1s ease-in-out;
+}
+
+@keyframes anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes anim2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+/*# sourceMappingURL=BITW.css.map */

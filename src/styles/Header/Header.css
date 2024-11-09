@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap");
 .header {
-  background-color: rgb(15, 10, 10);
+  background-color: rgb(0, 0, 0);
   height: 50px;
   display: flex;
   justify-content: space-around;
